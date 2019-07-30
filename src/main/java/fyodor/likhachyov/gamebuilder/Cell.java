@@ -17,18 +17,18 @@ public class Cell {
     }
 
     //    Left-top corner
-    private int x, y;
+    private float x, y;
 
     public Cell(int x, int y) {
         this.x = x;
         this.y = y;
     }
 
-    public int getX() {
+    public float getX() {
         return x;
     }
 
-    public int getY() {
+    public float getY() {
         return y;
     }
 
